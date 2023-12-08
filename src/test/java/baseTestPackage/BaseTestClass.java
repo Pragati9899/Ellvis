@@ -31,13 +31,14 @@ public class BaseTestClass {
         driver=new EdgeDriver();
     }
      driver.get(rb.getString("URL"));
-     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
+     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+     driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
      driver.manage().window().maximize();
 
  }
 
     @AfterClass
     public void teardown(){
-     //driver.quit();
+     driver.quit();
  }
 }

@@ -2,9 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="EllvisSuite">
     <test thread-count="5" name="EllvisTest">
+        <parameter name="DestIP" value="50.239.254.201"></parameter>
+        <parameter name="DestPort" value="45459"></parameter>
+        <parameter name="EnSRTmode" value="Caller"></parameter>
+        <parameter name="DestProtocol" value="SRT"></parameter>
+        <parameter name="EnEncryption" value="None"></parameter>
+        <parameter name="EncPassphrase" value="abcd"></parameter>
+        <parameter name="Opprotocol" value="UDP"></parameter>
+        <parameter name="Interface" value="enp0s31f6"></parameter>
+        <parameter name="OpIp" value="50.239.254.204" ></parameter>
+        <parameter name="OpPort" value="27653"></parameter>
+        <parameter name="OpEncryption" value="AES128"></parameter>
+        <parameter name="Op_EncryptionKey" value="abcd"></parameter>
+
         <classes>
-            <class name="testcases.TC001_LoginTest"></class>
-            <class name="testcases.TC002_LogoutTest"></class>
+
 
         </classes>
     </test>

@@ -1,7 +1,7 @@
 package pages;
 
+import actiondriver.ActionDriver;
 import basePackage.BaseClass;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,25 +28,42 @@ public class Dashboard extends BaseClass {
 
     @FindBy(xpath = "//p[text()='Stream Configuration']")
     WebElement streamConfigBtn;
+
+    @FindBy(xpath = "//i[@class=\"fa fa-stop\"]")
+    WebElement stopBtn;
+    @FindBy(xpath = "//i[@class=\"fa fa-play\"]")
+    WebElement startBtn;
+    @FindBy(xpath = "//i[@class=\"fa fa-edit\"]")
+    WebElement editBtn;
+    @FindBy(xpath = "//i[@class=\"fa fa-times\"]")
+    WebElement deleteBtn;
+    @FindBy(xpath = "//i[@class=\"fa fa-video-camera\"]")
+    WebElement previewBtn;
+    @FindBy(xpath = "(//div[@class=\"rt-tr -odd\"])")
+    WebElement firstStream;
+
+    public String FetchStreamColor(){
+       String colorOfStream= firstStream.getCssValue("color");
+       return colorOfStream;
+    }
     public boolean ValidationImage() {
         return Image.isDisplayed();
     }
-
-
     public void setLogoutBtn() {
-        JavascriptExecutor js =(JavascriptExecutor)driver;
-        js.executeScript("arguments[0].click();",LogoutBtn);
+        ActionDriver.JSClick(driver,LogoutBtn);
     }
 
     public void clickContinueBtn(){
-        JavascriptExecutor js =(JavascriptExecutor)driver;
-        js.executeScript("arguments[0]." +
-                "click();",ContinueBtnPopup);
+        ActionDriver.JSClick(driver,ContinueBtnPopup);
+    }
+    public void checkFor2ndUserLogin(){
+        if(ContinueBtnPopup.isDisplayed()){
+            ActionDriver.JSClick(driver,ContinueBtnPopup);
+        }
     }
 
     public void clickCancelBtn(){
-        JavascriptExecutor js =(JavascriptExecutor)driver;
-        js.executeScript("arguments[0].click();",CancelBtnPopup);
+        ActionDriver.JSClick(driver,CancelBtnPopup);
     }
 
     public String read1stStreamComment(){
@@ -55,7 +72,29 @@ public class Dashboard extends BaseClass {
     }
 
     public void clickonStreamConfig(){
-        JavascriptExecutor js =(JavascriptExecutor)driver;
-        js.executeScript("arguments[0].click();",streamConfigBtn);
+        ActionDriver.JSClick(driver,streamConfigBtn);
     }
+
+    public void clickStopBtn(){
+        ActionDriver.JSClick(driver,stopBtn);
+    }
+    public void clickStartBtn(){
+        ActionDriver.JSClick(driver,startBtn);
+    }
+    public void clickEditBtn(){
+        ActionDriver.JSClick(driver,editBtn);
+    }
+
+    public void clickDeleteBtn(){
+        ActionDriver.JSClick(driver,deleteBtn);
+    }
+    public void clickPreviewBtn(){
+        ActionDriver.JSClick(driver,previewBtn);
+    }
+    public boolean fetchCurrentUrl(){
+        String DashboardURL=driver.getCurrentUrl();
+        boolean URLflag=DashboardURL.contains("dashboard");
+        return URLflag;
+    }
+
 }

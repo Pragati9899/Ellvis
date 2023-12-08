@@ -1,7 +1,7 @@
 package pages;
 
+import actiondriver.ActionDriver;
 import basePackage.BaseClass;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,9 +22,22 @@ public class LoginPage extends BaseClass {
     @FindBy(xpath = "//h4[text()='Login']")
     WebElement LoginHeading;
 
-    public void inputPassword(String password){
+    @FindBy(xpath = "//label[@class=\"confirm-label\"]")
+    WebElement ConfirmLoginMessage;
 
-        Password.sendKeys(password);
+    @FindBy(xpath = "//b")
+    WebElement User_IP;
+
+    public String readUser_IP(){
+        String user_ip=User_IP.getText();
+        return user_ip;
+    }
+    public Boolean displayConfirmLoginMessage(){
+        Boolean confirmLoginMessage= ActionDriver.IsDisplayed(driver,ConfirmLoginMessage);
+        return confirmLoginMessage;
+    }
+    public void inputPassword(String password){
+        ActionDriver.type(Password, password);
     }
 
     public void clearPassword(){
@@ -32,8 +45,7 @@ public class LoginPage extends BaseClass {
     }
 
     public void clickLoginBtn(){
-        JavascriptExecutor js =(JavascriptExecutor)driver;
-        js.executeScript("arguments[0].click();",LoginBtn);
+        ActionDriver.JSClick(driver,LoginBtn);
     }
     public Boolean validateLoginHeading(){
         return LoginHeading.isDisplayed();
