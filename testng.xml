@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EllvisSuite">
+    <test thread-count="5" name="EllvisTest">
+        <classes>
+            <class name="testcases.TC001_LoginTest"></class>
+            <class name="testcases.TC002_LogoutTest"></class>
+
+        </classes>
+    </test>
+</suite>
