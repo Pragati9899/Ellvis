@@ -1,0 +1,11 @@
+
+l
+java:S1192?"VDefine a constant instead of duplicating this literal "arguments[0].click();" 5 times.(ÍØ
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü‡”¤şÿÿÿÿ
+I
+java:S1128"3Remove this unused import 'org.openqa.selenium.By'.(ÿŠŞ›
+[
+java:S1128	"@Remove this unused import 'org.openqa.selenium.support.FindBys'.(şİê­ûÿÿÿÿ
+]
+java:S1128
+"BRemove this unused import 'org.openqa.selenium.support.ui.Select'.(´—âÛøÿÿÿÿ
