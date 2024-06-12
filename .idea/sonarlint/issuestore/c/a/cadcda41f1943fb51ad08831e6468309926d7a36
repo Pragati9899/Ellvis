@@ -1,11 +1,19 @@
 
-l
-java:S1192?"VDefine a constant instead of duplicating this literal "arguments[0].click();" 5 times.(ÍØ
-l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü‡”¤şÿÿÿÿ
-I
-java:S1128"3Remove this unused import 'org.openqa.selenium.By'.(ÿŠŞ›
-[
-java:S1128	"@Remove this unused import 'org.openqa.selenium.support.FindBys'.(şİê­ûÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(€ƒ¬ë8Ã¾ÔœØ1
+P
+java:S1128"3Remove this unused import 'org.openqa.selenium.By'.(ÿŠŞ›8ü¼õä€2
+`
+java:S1128"CRemove this unused import 'org.openqa.selenium.JavascriptExecutor'.(Ë‚«»8ü¼õä€2
+W
+java:S1128":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ8ı¼õä€2
 ]
+java:S1128";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ8ş¼õä€2
+a
+java:S1128"?Remove this unused import 'org.openqa.selenium.support.FindBy'.(¶º´éùÿÿÿÿ8ş¼õä€2
+b
+java:S1128	"@Remove this unused import 'org.openqa.selenium.support.FindBys'.(şİê­ûÿÿÿÿ8ÿ¼õä€2
+d
 java:S1128
-"BRemove this unused import 'org.openqa.selenium.support.ui.Select'.(´—âÛøÿÿÿÿ
+"BRemove this unused import 'org.openqa.selenium.support.ui.Select'.(´—âÛøÿÿÿÿ8ÿ¼õä€2
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8€½õä€2

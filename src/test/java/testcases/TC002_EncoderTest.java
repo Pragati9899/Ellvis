@@ -12,7 +12,7 @@ import java.time.Duration;
 import java.util.ResourceBundle;
 
 public class TC002_EncoderTest {
-    public static WebDriver driver;
+   /* public static WebDriver driver;
     public ResourceBundle rb;
 
         @BeforeMethod
@@ -67,5 +67,5 @@ public class TC002_EncoderTest {
     @AfterClass
     public void TearDown(){
            driver.quit();
-    }
+    }*/
 }

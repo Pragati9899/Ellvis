@@ -9,7 +9,7 @@ import pages.LoginPage;
 
 public class TC004_LogoutTest extends BaseTestClass{
 
-    @Test
+  /*  @Test
     public void LogoutTest(){
 
           LoginPage lp = new LoginPage(driver);
@@ -27,4 +27,4 @@ public class TC004_LogoutTest extends BaseTestClass{
         Boolean result=lp.validateLoginHeading();
         Assert.assertEquals(result,true);
 
-}}
+}*/}

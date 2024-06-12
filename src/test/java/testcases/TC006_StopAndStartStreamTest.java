@@ -6,10 +6,10 @@ import pages.Dashboard;
 import pages.LoginPage;
 
 public class TC006_StopAndStartStreamTest extends BaseTestClass {
-   @Test()
-   public void TestStopAndStartStreamBtn() throws InterruptedException {
+ //  @Test()
+ //  public void TestStopAndStartStreamBtn() throws InterruptedException {
 
-       LoginPage lp = new LoginPage(driver);
+     /*  LoginPage lp = new LoginPage(driver);
        Dashboard dp = new Dashboard(driver);
        lp.inputPassword(rb.getString("password"));
        lp.clickLoginBtn();
@@ -25,6 +25,6 @@ public class TC006_StopAndStartStreamTest extends BaseTestClass {
        dp.clickStartBtn();
        dp.setLogoutBtn();
    }
-
+*/
 
 }

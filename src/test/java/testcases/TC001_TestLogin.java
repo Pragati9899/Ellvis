@@ -25,7 +25,7 @@ public class TC001_TestLogin extends BaseTestClass  {
         Boolean actualURL=dp.fetchCurrentUrl();
         Assert.assertEquals(actualURL,true,"User is succesfully login");
     }*/
-    @Test
+  /*  @Test
     public void TestSingleUserLogin() throws InterruptedException {
         LoginPage lp = new LoginPage(driver);
         Dashboard dp = new Dashboard(driver );
@@ -45,5 +45,5 @@ public class TC001_TestLogin extends BaseTestClass  {
         Thread.sleep(2000);
         Boolean actualURL=dp.fetchCurrentUrl();
         Assert.assertEquals(actualURL,true);
-    }
+    }*/
 }

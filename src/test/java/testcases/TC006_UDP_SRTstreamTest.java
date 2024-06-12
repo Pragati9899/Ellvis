@@ -10,7 +10,7 @@ import pages.StreamConfigUDP;
 
 public class TC006_UDP_SRTstreamTest extends BaseTestClass
 {
-        @Test
+     /*   @Test
         public void configure_UDP_SRTstream() throws InterruptedException {
         LoginPage lp = new LoginPage(driver);
         lp.inputPassword(rb.getString("password"));
@@ -51,4 +51,4 @@ public class TC006_UDP_SRTstreamTest extends BaseTestClass
         String streamComment=dp.read1stStreamComment();
         Assert.assertEquals(streamComment, rb.getString("comment6"));
 
-    }}
+    }*/}

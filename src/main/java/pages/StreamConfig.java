@@ -9,11 +9,11 @@ import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
 public class StreamConfig extends BaseClass {
-    public StreamConfig(WebDriver driver) {
+   /* public StreamConfig(WebDriver driver) {
         super(driver);
     }
 
-    /*---- General Parameters--------*/
+    *//*---- General Parameters--------*//*
     @FindBy(xpath = "(//button[@id=\"dropdown-basic\"])[1]")
     WebElement inprotocol;
     @FindBy(xpath = "(//div[@class='col-md-7'])[1]//ul//li")
@@ -69,7 +69,7 @@ public class StreamConfig extends BaseClass {
     @FindBy(xpath = "//div[contains(@class,'notification-message')]")
     WebElement errorMessage;
 
-    /*---------SRT Parameters--------------------*/
+    *//*---------SRT Parameters--------------------*//*
     @FindBy(xpath = "(//button[@id=\"dropdown-basic\"])[2]")
     WebElement inSRTmode;
     @FindBy(xpath = "(//div[@class='col-md-7'])[2]//ul//li")
@@ -103,11 +103,11 @@ public class StreamConfig extends BaseClass {
     @FindBy(xpath = "//input[@statekey='destEncryptionKey']")
     WebElement encryptionKey;
 
-    /*----------UDP Parameters--------------*/
+    *//*----------UDP Parameters--------------*//*
     @FindBy(xpath = "//input[@statekey=\"sourceSSMIP\"]")
     WebElement SSMip;
 
-    /* ------DASH Parameters_______________*/
+    *//* ------DASH Parameters_______________*//*
     @FindBy(xpath = "//label[@for='cb5']")
     WebElement lowLatencyCheckbox;
 
@@ -131,7 +131,7 @@ public class StreamConfig extends BaseClass {
     @FindBy(xpath = "//label[@for='cb3']")
     WebElement segmentTemplateChekbox;
 
-    /*---------------HLS parameters-------------*/
+    *//*---------------HLS parameters-------------*//*
     @FindBy(xpath = "(//button[@id=\"dropdown-basic\"])[8]")
     WebElement HLSformatDrp;
     @FindBy(xpath = "(//div[@class='col-md-7'])[20]//ul//li")
@@ -311,5 +311,5 @@ public class StreamConfig extends BaseClass {
     public void setiFrameCheckbox(){
         ActionDriver.JSClick(driver,iFrameCheckbox);
 
-    }
+    }*/
 }

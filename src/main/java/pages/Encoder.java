@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import actiondriver.ActionDriver;
 public class Encoder extends BaseClass {
-    public Encoder(WebDriver driver) {
+    /*public Encoder(WebDriver driver) {
         super(driver);
     }
 
@@ -94,6 +94,6 @@ public class Encoder extends BaseClass {
     public String CheckStateofEncoder(){
         String stateofEncoder=StateofEncoder.getText();
            return stateofEncoder;
-    }
+    }*/
 }
 

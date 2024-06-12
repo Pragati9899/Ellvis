@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class ee extends BaseClass {
+/*
 
     public ee(WebDriver driver) {
         super(driver);
@@ -46,6 +47,7 @@ public class ee extends BaseClass {
         }
         return data;
     }
+*/
 
 
 }

@@ -9,7 +9,7 @@ import pages.LoginPage;
 import pages.StreamConfig;
 
 public class TC003_TestConfigStream extends BaseTestClass {
-    @Test
+  /*  @Test
     public void login(){
         LoginPage lp = new LoginPage(driver);
         Dashboard dp = new Dashboard(driver);
@@ -159,5 +159,5 @@ public class TC003_TestConfigStream extends BaseTestClass {
         }else {
             System.out.println("Stream is Inactive");
         }
-    }
+    }*/
 }

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BaseClass {
 
-    public LoginPage(WebDriver driver){
+  /*  public LoginPage(WebDriver driver){
         super(driver);
     }
 
@@ -50,5 +50,5 @@ public class LoginPage extends BaseClass {
     public Boolean validateLoginHeading(){
         return LoginHeading.isDisplayed();
     }
-
+*/
 }

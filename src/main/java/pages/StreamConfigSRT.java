@@ -10,7 +10,7 @@ import java.util.List;
 
 public class StreamConfigSRT extends BaseClass {
 
-    public StreamConfigSRT(WebDriver driver) {
+   /* public StreamConfigSRT(WebDriver driver) {
         super(driver);
     }
 
@@ -279,5 +279,5 @@ public class StreamConfigSRT extends BaseClass {
     public void clicSaveBtn(){
         JavascriptExecutor js =(JavascriptExecutor)driver;
         js.executeScript("arguments[0].click();",saveBtn);
-    }
+    }*/
 }

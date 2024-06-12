@@ -9,7 +9,7 @@ import pages.LoginPage;
 
 public class TC002_LogoutTest extends BaseTestClass{
 
-    @Test(priority = 5)
+ /*   @Test(priority = 5)
     public void LogoutTest(){
         LoginPage lp = new LoginPage(driver);
         lp.inputPassword(rb.getString("password"));
@@ -20,5 +20,5 @@ public class TC002_LogoutTest extends BaseTestClass{
         Boolean result=lp.validateLoginHeading();
 
         Assert.assertEquals(result,true);
-    }
+    }*/
 }

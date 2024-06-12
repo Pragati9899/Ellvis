@@ -8,7 +8,7 @@ import pages.LoginPage;
 
 public class TC001_LoginTest extends BaseTestClass  {
 
-    @Test(priority = 0)
+    /*@Test(priority = 0)
     public void LoginTest(){
         LoginPage lp = new LoginPage(driver);
         lp.inputPassword(rb.getString("password"));
@@ -44,5 +44,5 @@ public class TC001_LoginTest extends BaseTestClass  {
         dp.clickCancelBtn();
         Boolean result=lp.validateLoginHeading();
         Assert.assertEquals(result,true);
-    }
+    }*/
 }

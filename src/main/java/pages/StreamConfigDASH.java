@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class StreamConfigDASH  extends BaseClass {
-    public StreamConfigDASH(WebDriver driver) {
+   /* public StreamConfigDASH(WebDriver driver) {
         super(driver);
     }
     @FindBy(xpath = "(//div[@class='col-md-7'])[13]//ul//li")
@@ -66,7 +66,7 @@ public class StreamConfigDASH  extends BaseClass {
     @FindBy(xpath = "//button[text()='Save']")
     WebElement saveBtn;
 
-
+*/
 
 
 }

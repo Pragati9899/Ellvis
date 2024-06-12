@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 
 public class StreamConfigUDP extends BaseClass {
-    public StreamConfigUDP(WebDriver driver) {
+   /* public StreamConfigUDP(WebDriver driver) {
         super(driver);
     }
     @FindBy(xpath = "(//button[@id=\"dropdown-basic\"])[1]")
@@ -157,6 +157,6 @@ public class StreamConfigUDP extends BaseClass {
         js.executeScript("arguments[0].click();",saveBtn);
     }
 
-
+*/
 
 }

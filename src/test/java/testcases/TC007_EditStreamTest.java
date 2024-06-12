@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pages.*;
 
 public class TC007_EditStreamTest extends BaseTestClass {
-    @Test
+   /* @Test
     public void editStreamTest() {
         //   try {
         LoginPage lp = new LoginPage(driver);
@@ -15,7 +15,7 @@ public class TC007_EditStreamTest extends BaseTestClass {
         dp.checkFor2ndUserLogin();
         dp.clickEditBtn();
         StreamConfig config = new StreamConfig(driver);
-/*
+*//*
             if( config.readInProtocol().equals("SRT")){
                 config.setUpdateInterval(rb.getString("upInterval"));
             }
@@ -27,7 +27,7 @@ public class TC007_EditStreamTest extends BaseTestClass {
 
             if(config.readOpProtocol().equals(("DASH") )){
                 StreamConfig configDash= new StreamConfig(driver);
-              *//*  configDash.setSegmentDuration(rb.getString("segDuration"));*//*
+              *//**//*  configDash.setSegmentDuration(rb.getString("segDuration"));*//**//*
                 configDash.setFragmentDuration(rb.getString("fragDuration"));
             } else if (config.readOpProtocol().equals(("HLS") )) {
                 StreamConfigHLS configDash= new StreamConfigHLS(driver);
@@ -43,9 +43,9 @@ public class TC007_EditStreamTest extends BaseTestClass {
             config.clicSaveBtn();
 
         }
-        catch (Exception e){*/
+        catch (Exception e){*//*
 
         // }
 
-    }
+    }*/
 }

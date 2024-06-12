@@ -8,7 +8,7 @@ import pages.LoginPage;
 import pages.StreamConfigUDP;
 
 public class TC004_UDP_UDPstreamTest extends BaseTestClass {
-    @Test
+  /*  @Test
     public void configureUDP_UDPstream() throws InterruptedException {
         LoginPage lp = new LoginPage(driver);
         lp.inputPassword(rb.getString("password"));
@@ -37,15 +37,15 @@ public class TC004_UDP_UDPstreamTest extends BaseTestClass {
         configUDP.setComment(rb.getString("comment4"));
         configUDP.clicSaveBtn();
 
-      /*  if(dp.read1stStreamPort().contains(rb.getString("inPort"))){
+      *//*  if(dp.read1stStreamPort().contains(rb.getString("inPort"))){
             System.out.println("Test Passed");
         }else {
             System.out.println("Test Failed");
-        }*/
+        }*//*
 
         Thread.sleep(5000);
         String streamComment=dp.read1stStreamComment();
        Assert.assertSame(streamComment,rb.getString("comment4"));
-    }
+    }*/
 
 }

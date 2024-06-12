@@ -1,18 +1,23 @@
 
-~
-java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "elementText".(ÌÃ§¼ýÿÿÿÿ
 b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·»’ó
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚“ïÊ
-h
-java:S2095$"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¶ÈÖëþÿÿÿÿ
-e
-java:S2095%"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(âÑãöøÿÿÿÿ
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŽÆ¹£ÿÿÿÿÿ
-H
-java:S1172"-Remove this unused method parameter "driver".(ŽÆ¹£ÿÿÿÿÿ
-c	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÞ™ê
-C
-java:S1172 "-Remove this unused method parameter "driver".(ÃÞ™ê
-E	java:S106,"+Replace this use of System.out by a logger.(Öš®Ðÿÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(ÆäŽ­ûÿÿÿÿ8¤¼ÕœØ1
+_
+java:S1128"BRemove this unused import 'org.apache.poi.xssf.usermodel.XSSFRow'.(àœúÜ8—Ìõä€2
+f
+java:S1128"DRemove this unused import 'org.apache.poi.xssf.usermodel.XSSFSheet'.(¡ÏŸ®úÿÿÿÿ8—Ìõä€2
+i
+java:S1128"GRemove this unused import 'org.apache.poi.xssf.usermodel.XSSFWorkbook'.(Œ¦ƒëþÿÿÿÿ8˜Ìõä€2
+`
+java:S1128"CRemove this unused import 'org.openqa.selenium.JavascriptExecutor'.(Ë‚«»8™Ìõä€2
+W
+java:S1128":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ8™Ìõä€2
+]
+java:S1128	";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”þÿÿÿÿ8šÌõä€2
 F
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+java:S1128")Remove this unused import 'java.io.File'.(†Ð¥Å8šÌõä€2
+Q
+java:S1128"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8›Ìõä€2
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8›Ìõä€2
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8œÌõä€2

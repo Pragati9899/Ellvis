@@ -1,5 +1,12 @@
 
-m
-java:S1192e"WDefine a constant instead of duplicating this literal "arguments[0].click();" 10 times.(ÍØ
-g	java:S117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Ñ«
-l	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü‡”¤şÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(®Âõ¯úÿÿÿÿ8‰õÓœØ1
+`
+java:S1128"CRemove this unused import 'org.openqa.selenium.JavascriptExecutor'.(Ë‚«»8ŸÖ«ëÙ1
+W
+java:S1128":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ8ŸÖ«ëÙ1
+]
+java:S1128";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ8 Ö«ëÙ1
+a
+java:S1128"?Remove this unused import 'org.openqa.selenium.support.FindBy'.(¶º´éùÿÿÿÿ8 Ö«ëÙ1
+M
+java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8 Ö«ëÙ1

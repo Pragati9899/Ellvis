@@ -7,9 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class Dashboard extends BaseClass {
-    public Dashboard(WebDriver driver) {
-        super(driver);
-    }
+
+/*
 
     @FindBy(xpath = "//img[@alt=\"logo_image\"]")
     WebElement Image;
@@ -96,5 +95,6 @@ public class Dashboard extends BaseClass {
         boolean URLflag=DashboardURL.contains("dashboard");
         return URLflag;
     }
+*/
 
 }

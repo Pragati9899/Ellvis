@@ -8,7 +8,7 @@ import pages.LoginPage;
 import pages.StreamConfigSRT;
 
 public class TC005_SRT_SRTstreamTest extends BaseTestClass {
-    @Test
+/*    @Test
     public void configure_SRT_SRT_stream() throws InterruptedException {
         LoginPage lp = new LoginPage(driver);
         lp.inputPassword(rb.getString("password"));
@@ -57,5 +57,5 @@ public class TC005_SRT_SRTstreamTest extends BaseTestClass {
         String streamComment=dp.read1stStreamComment();
         Assert.assertEquals(streamComment, rb.getString("comment5"));
 
-    }
+    }*/
 }

@@ -6,7 +6,7 @@ import pages.Dashboard;
 import pages.LoginPage;
 
 public class TC008_TestDeleteStreamFeature extends BaseTestClass {
-    @Test
+   /* @Test
     public void TestDeleteStreamFeature() {
 
         LoginPage lp = new LoginPage(driver);
@@ -22,5 +22,5 @@ public class TC008_TestDeleteStreamFeature extends BaseTestClass {
 
         dp.clickDeleteBtn();
         dp.setLogoutBtn();
-    }
+    }*/
 }

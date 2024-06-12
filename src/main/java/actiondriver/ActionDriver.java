@@ -14,9 +14,7 @@ import java.util.List;
 import java.util.Set;
 
 public class ActionDriver extends BaseClass {
-    public ActionDriver(WebDriver driver) {
-        super(driver);
-    }
+
     public static void scrollDownByEnd(WebDriver driver) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollBy(0,250)", "");
