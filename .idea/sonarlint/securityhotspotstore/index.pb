@@ -157,3 +157,7 @@ T
 $src/main/java/utilities/Utility.java,2\b\2bec5986e99da52fe9ee58185abab6c8ff5c83dc
 Y
 )src/main/java/utilities/DynamicXpath.java,2\d\2ddf6f9fd46418e0fe427316d9c712803c5c4afd
+Q
+!src/main/java/enums/Browsers.java,5\2\526197189ebb67d767961abfa650e090b304e270
+W
+'src/test/java/testcases/Testcase01.java,7\2\723b8909e1ae5307249e51614b15a231b54e4561

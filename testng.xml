@@ -16,7 +16,7 @@
         <parameter name="Op_EncryptionKey" value="abcd"></parameter>
 
         <classes>
-
+          <class name="testcases.Testcase01"></class>
 
         </classes>
     </test>

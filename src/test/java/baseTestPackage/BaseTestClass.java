@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.time.Duration;
 import java.util.ResourceBundle;
 
@@ -41,7 +42,7 @@ public class BaseTestClass {
     }
 
     @BeforeMethod
-    public void setDriver(){
+    public void setDriver() throws MalformedURLException {
         Driver.initDriver();
         DriverManager.getDriver().get("https://google.com");
     }
